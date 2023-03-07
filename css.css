@@ -16,4 +16,12 @@ body{
     max-width: 1440px;
     width: 100%;
     height: auto;
+    background-color: white;
+}
+.section1{
+    display: flex;
+}
+.yox{
+    display: flex;
+    flex-direction: column;
 }
