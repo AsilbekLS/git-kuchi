@@ -18,10 +18,11 @@ body{
     height: auto;
     background-color: white;
     position: relative;
+    background: #C4C4C4;
 }
 .section1{
     display: flex;
-    background: #C4C4C4;
+    
     padding: 77px 0 0 64px;
 }
 .yox{
@@ -119,6 +120,42 @@ border-radius: 4px;
 .ds{
     position: absolute;
    margin-top: 95px;
-   margin-left: 190px;
+   margin-left: 290px;
     z-index: 1;
+}
+a{
+    color: white;
+
+}
+a:hover{
+    color: black;
+}
+nav{
+    display: flex;
+    padding: 28px 63px 0 66px;
+    justify-content: space-between;
+}
+.baza{
+    display: flex;
+}
+.button>button{
+    width: 82px;
+height: 38px;
+left: 1294.5px;
+top: 31px;
+color: white;
+/* White */
+border: none;
+background-color: rgba(127, 255, 212, 0);
+border-radius: 4px;
+}
+.button>button:hover{
+    background-color: #FFFFFF;
+color: black;
+}
+.link{
+    margin-right: 18px;
+    display: flex;
+    align-items: center;
+    gap: 38px;
 }
